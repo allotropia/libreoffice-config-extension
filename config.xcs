@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<oor:component-schema oor:name="Config" oor:package="org.libreoffice.example.settings" xml:lang="en-US"
+  xmlns:oor="http://openoffice.org/2001/registry"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <component>
+    <group oor:name="group1">
+      <prop oor:name="variant1" oor:type="xs:string"/>
+    </group>
+    <group oor:name="group2">
+      <prop oor:name="boolean1" oor:type="xs:boolean"/>
+      <prop oor:name="boolean2" oor:type="xs:boolean"/>
+    </group>
+  </component>
+</oor:component-schema>
